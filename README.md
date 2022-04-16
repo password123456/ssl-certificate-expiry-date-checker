@@ -14,7 +14,7 @@
 - Send a custom notification when SSL certificates are about to expire with a detailed scan results using webhook (telegram-bot, slack..etc)
 - you can management not to be the ssl certificate expire.
 - The difference from other similar tools,You can optionally choose to use proxy each list. for example, there's a certain system in the restricted private network, you have to scan it. in this case you may have to use  proxy system.
-- you can set a proxy system ip/port in the configuraion, can set which domains must pass through the proxy system in the list.txt.
+- you can set the proxy ip/port in the configuraion, can set which domains must pass through the proxy system in the list.txt.
 - If you have a various log analyzer, you can collect logs and do what you want to more.
 
 # Documentation
