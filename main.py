@@ -49,7 +49,7 @@ def scan_result_logs(_contents):
     
 
 def connect_proxy(_hostname):
-    _proxy_ip = '54.39.102.233'
+    _proxy_ip = '<PROXY IP>'
     _proxy_port = 80  # port number is a number, not string
 
     conn = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
