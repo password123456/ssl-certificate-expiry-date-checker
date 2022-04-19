@@ -7,11 +7,10 @@
 [pyversion-button]: https://img.shields.io/pypi/pyversions/Markdown.svg
 [made-with-python]: https://img.shields.io/badge/Made%20with-Python-1f425f.svg
 
-- Find out which cerificate will expire from list and need to renew.
-- You can find various information from scan result (expire date, issuer, signature, certificate serial number)
-- If you are ssl cerificate manager in your organization, get a list of domain from your coworker, teams, and check the expire date of the certificates.
-- Send a custom notification when SSL certificates are about to expire with a detail result using webhook (telegram-bot, slack..etc)
-- You can management not to be expire ssl certificate
+- Find out which cerificate will expire and need to renew.
+- Find various information from scan result (expire date, issuer, signature, serial number...)
+- If you are ssl cerificate manager in your organization, collect the list from your coworker, teams, and check the expire date of the certificates.
+- custom notify when SSL certificates are about to expire with a detail result (WEBHOOK, Telegram-Bot, Slack...)
 - The difference from other similar tools, optionally choose to use proxy by domain. for example, there's a system in the restricted private enviroment network and have to scan, you may have to use proxy.
 - In the configuraion you can set the proxy ip/port and can set which domains must pass through the proxy system in the list.txt.
 - If you have a various log analyzer, you can collect logs and do what you want to more.
