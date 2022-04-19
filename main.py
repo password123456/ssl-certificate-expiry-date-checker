@@ -130,7 +130,7 @@ def check_hostname(_domain):
 
 
 def connect_proxy(_domain):
-    _proxy_ip = '54.39.102.233'
+    _proxy_ip = '<your proxy ip>'
     _proxy_port = 80  # port number is a number, not string
 
     conn = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
