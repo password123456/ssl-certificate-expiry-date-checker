@@ -7,20 +7,19 @@
 [pyversion-button]: https://img.shields.io/pypi/pyversions/Markdown.svg
 [made-with-python]: https://img.shields.io/badge/Made%20with-Python-1f425f.svg
 
-- Scan a list of domains to find out which SSL Certificates each one is using.
-- The goal is to find out which are about to expire. so I know to include that domain on our list of devices that we'll need to renew the certificate on when it expires.
-- You can get a variety of information from the scan results. expire date, issuer, signature, certificate serial_number.
-- If you're the ssl cerificate Officer in your organization, You can do get a list of domain from in your organization to check the expiration date of the ssl certificates.
-- Send a custom notification when SSL certificates are about to expire with a detailed scan results using webhook (telegram-bot, slack..etc)
-- you can management not to be the ssl certificate expire.
-- The difference from other similar tools,You can optionally choose to use proxy each list. for example, there's a certain system in the restricted private network, you have to scan it. in this case you may have to use  proxy system.
-- you can set the proxy ip/port in the configuraion, can set which domains must pass through the proxy system in the list.txt.
+- Find out which cerificate will expire from list and need to renew.
+- You can find various information from scan result (expire date, issuer, signature, certificate serial number)
+- If you are ssl cerificate manager in your organization, get a list of domain from your coworker, teams, and check the expire date of the certificates.
+- Send a custom notification when SSL certificates are about to expire with a detail result using webhook (telegram-bot, slack..etc)
+- You can management not to be expire ssl certificate
+- The difference from other similar tools, optionally choose to use proxy by domain. for example, there's a system in the restricted private enviroment network and have to scan, you may have to use proxy.
+- In the configuraion you can set the proxy ip/port and can set which domains must pass through the proxy system in the list.txt.
 - If you have a various log analyzer, you can collect logs and do what you want to more.
 
 # Features
 - scan ssl_certificate and get information (before_date, after_date, issuer, issuer_hash, serial, signatures)
-- can set the pass through the proxy or not by domain.
-- can set ocsp valid check by domain.
+- set pass through the proxy or not by domain.
+- ocsp valid check by domain.
 - verify ssl_certificates that will be expire within set days.
 - create custom logs and can query.
 
